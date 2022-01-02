@@ -1,0 +1,73 @@
+.check {
+  height: calc(100vh-50px);
+}
+.timelineContainerTop {
+  background: white;
+}
+.timelineContainerbottom {
+  display: flex;
+}
+.timelineCoverDpContainer {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  box-shadow: 0 4px 2px -2px rgb(206, 230, 240);
+}
+.profileCover {
+  flex: 12;
+  width: 100%;
+  height: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.timelineCoverImg {
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  margin: auto;
+  border: 3px solid white;
+}
+.timelineUserImg {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top: 250px; */
+  bottom: 245px;
+  margin: auto;
+  border: 3px solid white;
+}
+.timelineInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+a {
+  margin-top: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  color: blue;
+}
+.timelinefoName {
+  font-size: 30px;
+  font-weight: 700;
+}
+.timelinefoDesc {
+  font-weight: 300;
+}
